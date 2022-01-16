@@ -13,6 +13,9 @@ export default class FilterList extends PureComponent {
   render() {
     return (
       <>
+        {
+          //подписываемся на события изменений через onChange
+        }
         <input
           onChange={(event) => {
             {
